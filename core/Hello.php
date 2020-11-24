@@ -4,5 +4,5 @@ namespace Core;
 
 class Hello
 {
-  public $name = "home";
+  public $name = "welcome from ". __CLASS__ . " Class ";
 }

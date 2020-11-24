@@ -5,5 +5,5 @@ namespace App\Views ;
 
 class Second 
 {
-  public $hello = "the name"; 
+  public $name = "welcome from " . __CLASS__ . " Class ";
 }

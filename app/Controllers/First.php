@@ -4,5 +4,5 @@ namespace App\Controllers;
 
 class First 
 {
-  public $name= 'First'; 
+  public $name = "welcome from " . __CLASS__ . " Class ";
 }

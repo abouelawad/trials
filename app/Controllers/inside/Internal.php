@@ -1,8 +1,9 @@
 <?php
 
-namespace Core;
+namespace App\Controllers\Inside;
 
-class Ayhaga
+
+class Internal
 {
   public $name = "welcome from " . __CLASS__ . " Class ";
 }
