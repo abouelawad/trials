@@ -18,6 +18,6 @@
 spl_autoload_register("getClassName");
 function getClassName($className)
 {
-  $filePath = lcfirst($className) . ".php";
+  $filePath = lcfirst(str_replace("\\", DIRECTORY_SEPARATOR , $className)) . ".php";
   require_once $filePath;
 }
