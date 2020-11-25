@@ -1,6 +1,6 @@
 <?php
 
-// spl_autoload_register();
+spl_autoload_register();
 
 
 //! THIS WAY is not effective for me 

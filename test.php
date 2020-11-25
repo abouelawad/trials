@@ -1,11 +1,13 @@
 <?php
 
 require_once "autoload.php";
+// require_once "vendor/autoload.php";
 
 use App\Controllers\First;
 use App\Controllers\inside\Internal;
 use App\SayHi;
 use App\Views\Second;
+use Core\Ayhaga;
 use Core\Hello;
 use Core\Request;
 
@@ -48,3 +50,15 @@ echo '<br />';
 #app/views/
 $second = new Second;
 echo $second->name;
+
+echo '<br />';
+
+#core/
+$ayHage = new Ayhaga;
+echo $ayHage->name;
+
+echo '<br />';
+
+#core/
+$hello = new Hello;
+echo $hello->name;
